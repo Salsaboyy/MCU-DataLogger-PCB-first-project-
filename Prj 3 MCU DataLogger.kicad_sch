@@ -1,5 +1,19 @@
-(kicad_sch (version 20231120) (generator "eeschema") (generator_version "7.99")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "7.99")
+	(uuid "bdc5bc67-61c4-474c-8492-5f30bea54457")
+	(paper "A4")
+	(title_block
+		(title "${projectName}")
+		(date "2024-01-01")
+		(rev "Version1")
+		(comment 1 "Designer : Anıl GÜNDÜZ")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
