@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "7.99")
-	(uuid "580c64d4-f48d-417f-b0b1-c0dd682a6d36")
+	(uuid "846ebe6d-017c-4002-afe2-ae3c0a0b1aff")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Anıls_Library2:Conn_01x04_Male"
