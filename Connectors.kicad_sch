@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "7.99")
-	(uuid "e83c03e8-60c1-4700-8d8f-692a1107aecf")
+	(uuid "580c64d4-f48d-417f-b0b1-c0dd682a6d36")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Anıls_Library2:Conn_01x04_Male"
@@ -2345,15 +2345,16 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "Conn_01x04_Male"
 			(at 97.4745 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 97.79 59.69 0)
 			(effects
 				(font
@@ -2426,15 +2427,16 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "Conn_01x04_Male"
 			(at 122.8745 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 123.19 58.42 0)
 			(effects
 				(font
@@ -2507,15 +2509,16 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "Conn_01x09_Male"
 			(at 97.4317 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical"
 			(at 97.79 77.47 0)
 			(effects
 				(font
@@ -2611,7 +2614,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
 			(at 120.65 86.36 0)
 			(effects
 				(font
