@@ -121,9 +121,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "MCU DataLogger Gerbers/")
 		)
 	)
 	(property "projectName" "MCU DataLogger with Memory and Clock")
@@ -1228,7 +1228,7 @@
 			(at -0.9125 0)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.243902)
+			(roundrect_rratio 0.243902439)
 			(net 8 "Net-(D2-K)")
 			(pintype "passive")
 			(uuid "b218d750-4c9a-4bdc-8553-f5f829671033")
@@ -1237,7 +1237,7 @@
 			(at 0.9125 0)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.243902)
+			(roundrect_rratio 0.243902439)
 			(net 1 "GND")
 			(pintype "passive")
 			(uuid "eb20a91a-c58f-4f90-9a1a-266483c2cff2")
@@ -1897,7 +1897,7 @@
 			(at -0.9125 0)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.243902)
+			(roundrect_rratio 0.243902439)
 			(net 1 "GND")
 			(pintype "passive")
 			(uuid "3c3a77ce-2ee4-4a50-b33f-49927f1762cb")
@@ -1906,7 +1906,7 @@
 			(at 0.9125 0)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.243902)
+			(roundrect_rratio 0.243902439)
 			(net 6 "Net-(D1-K)")
 			(pintype "passive")
 			(uuid "dade266d-f1ce-45cb-a5ce-cba6a9c086d3")
@@ -2923,6 +2923,17 @@
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
 			(uuid "0b3364af-ff5c-4a7a-8718-f832115a8b52")
+		)
+		(model "C:/Users/Lenovo/Desktop/UDEMY/PCB Design/KiCAD/Projects/Project Libraries/ATMEGA328P-AU.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1.1 1 1.05)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
 		)
 	)
 	(footprint "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering"
@@ -4079,7 +4090,7 @@
 			(at -0.9125 0)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.243902)
+			(roundrect_rratio 0.243902439)
 			(net 2 "/Vcc")
 			(pintype "passive")
 			(uuid "2f2a93b4-fb17-4b14-a00d-4f4fda10b15b")
@@ -4088,7 +4099,7 @@
 			(at 0.9125 0)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.243902)
+			(roundrect_rratio 0.243902439)
 			(net 9 "/SDA")
 			(pintype "passive")
 			(uuid "a6e8ff1b-001c-4f75-8ba6-bcdff3ec9793")
@@ -4302,7 +4313,7 @@
 			(at -0.9125 0)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.243902)
+			(roundrect_rratio 0.243902439)
 			(net 2 "/Vcc")
 			(pintype "passive")
 			(uuid "6fa08d26-8790-4b48-afd4-0b23be3c7300")
@@ -4311,7 +4322,7 @@
 			(at 0.9125 0)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.243902)
+			(roundrect_rratio 0.243902439)
 			(net 23 "Net-(U3-SQW{slash}~INT)")
 			(pintype "passive")
 			(uuid "c6073da9-4fc2-460d-886e-7e0ad8b6c068")
@@ -5939,7 +5950,7 @@
 			(pintype "power_in")
 			(uuid "c1e3a883-162e-4306-bc6e-ce619c26ffb4")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_5.23x5.23mm_P1.27mm.wrl"
+		(model " C:/Users/Lenovo/Desktop/UDEMY/PCB Design/KiCAD/Projects/Project Libraries/DS1337S.STEP 1 "
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5948,6 +5959,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/Lenovo/Desktop/UDEMY/PCB Design/KiCAD/Projects/Project Libraries/DS1337S.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -6260,7 +6282,7 @@
 			(at -0.9125 0 180)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.243902)
+			(roundrect_rratio 0.243902439)
 			(net 2 "/Vcc")
 			(pintype "passive")
 			(uuid "7d2de0df-4c01-4006-b140-190a28de0667")
@@ -6269,7 +6291,7 @@
 			(at 0.9125 0 180)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.243902)
+			(roundrect_rratio 0.243902439)
 			(net 7 "/SCK")
 			(pintype "passive")
 			(uuid "8ca817c4-2b69-49dd-a439-98b17f08cd59")
@@ -6483,7 +6505,7 @@
 			(at -0.9125 0)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.243902)
+			(roundrect_rratio 0.243902439)
 			(net 2 "/Vcc")
 			(pintype "passive")
 			(uuid "c7d44d5d-3caf-497e-9855-c545f4553d17")
@@ -6492,7 +6514,7 @@
 			(at 0.9125 0)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.243902)
+			(roundrect_rratio 0.243902439)
 			(net 19 "/RESET")
 			(pintype "passive")
 			(uuid "03ce01eb-4ee6-4dda-9545-8730a15ef455")
@@ -6818,7 +6840,7 @@
 			(at -0.9125 0 180)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.243902)
+			(roundrect_rratio 0.243902439)
 			(net 2 "/Vcc")
 			(pintype "passive")
 			(uuid "3a3a61a5-af97-45fc-bd8c-a080bf76f0e9")
@@ -6827,7 +6849,7 @@
 			(at 0.9125 0 180)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.243902)
+			(roundrect_rratio 0.243902439)
 			(net 22 "Net-(U3-~{INTA})")
 			(pintype "passive")
 			(uuid "b7e194ea-72d6-4aa2-a067-2a35c68c80af")
@@ -6860,7 +6882,7 @@
 			)
 		)
 		(property "Value" "DS1337S_"
-			(at 0.7388 1.3716 0)
+			(at 4.5996 0.6096 90)
 			(layer "F.SilkS")
 			(uuid "3a1e084d-8423-4377-a3a5-bf2ea3f54ea3")
 			(effects
@@ -7237,6 +7259,17 @@
 			(solder_mask_margin 0.102)
 			(uuid "c9cec438-68af-49a6-8442-6370bfa433b8")
 		)
+		(model "C:/Users/Lenovo/Desktop/UDEMY/PCB Design/KiCAD/Projects/Project Libraries/DS1337S_.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
 		(layer "F.Cu")
@@ -7578,7 +7611,7 @@
 			(pintype "power_in")
 			(uuid "3f95b98d-8a23-4920-9f44-72cf4c7463e6")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_5.23x5.23mm_P1.27mm.wrl"
+		(model "C:/Users/Lenovo/Desktop/UDEMY/PCB Design/KiCAD/Projects/Project Libraries/DS1337S.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7586,7 +7619,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -8677,6 +8710,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "-"
+		(at 93.4974 80.4926 90)
+		(layer "F.SilkS")
+		(uuid "3632bb4c-e5d7-4a0e-878b-cf29a04504cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "GPIO"
 		(at 118.1608 101.0158 90)
 		(layer "F.SilkS")
@@ -8822,6 +8867,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "+"
+		(at 93.3958 83.439 90)
+		(layer "F.SilkS")
+		(uuid "d1e17ba4-9776-470e-ad00-f67c452d0a0b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Vcc"
 		(at 115.443 97.536 0)
 		(layer "F.SilkS")
@@ -8928,18 +8985,6 @@
 				(thickness 0.2)
 			)
 			(justify left top)
-		)
-	)
-	(gr_text "-"
-		(at 94.1832 80.645 90)
-		(layer "User.1")
-		(uuid "3632bb4c-e5d7-4a0e-878b-cf29a04504cf")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
 		)
 	)
 	(gr_text "55.8612 mm x 35.5158 mm"
@@ -9084,18 +9129,6 @@
 				(thickness 0.2)
 			)
 			(justify left top)
-		)
-	)
-	(gr_text "+"
-		(at 94.361 84.1248 90)
-		(layer "User.1")
-		(uuid "d1e17ba4-9776-470e-ad00-f67c452d0a0b")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
 		)
 	)
 	(gr_text "No"
