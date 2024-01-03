@@ -1,0 +1,27 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,7.99.0-4047-gfc85112a72*%
+%TF.CreationDate,2024-01-03T20:56:32+03:00*%
+%TF.ProjectId,Prj 3 MCU DataLogger,50726a20-3320-44d4-9355-20446174614c,Version-1*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,NonPlated,1,4,NPTH,Drill*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 7.99.0-4047-gfc85112a72) date 2024-01-03 20:56:32*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,ComponentDrill*%
+%ADD10C,2.100000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,H1*%
+X87807800Y-71424800D03*
+%TO.C,H2*%
+X87807800Y-101904800D03*
+%TO.C,H3*%
+X138633200Y-71424800D03*
+%TO.C,H4*%
+X138633200Y-101904800D03*
+M02*
