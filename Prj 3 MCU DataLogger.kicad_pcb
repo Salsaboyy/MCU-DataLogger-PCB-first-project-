@@ -2943,7 +2943,7 @@
 		(descr "SMD Crystal SERIES SMD2520/2 http://www.icbase.com/File/PDF/HKC/HKC00061008.pdf, hand-soldering, 5.0x3.2mm^2 package")
 		(tags "SMD SMT crystal hand-soldering")
 		(property "Reference" "Y1"
-			(at 0 -2.8 180)
+			(at 3.048 -2.5908 180)
 			(layer "F.SilkS")
 			(uuid "0efe7d63-8158-486e-93b7-e562003bed4e")
 			(effects
@@ -2954,7 +2954,7 @@
 			)
 		)
 		(property "Value" "16 MHz"
-			(at 0 2.8 180)
+			(at -1.9812 -2.4384 180)
 			(layer "F.SilkS")
 			(uuid "a9b42e2b-d6cb-4639-a724-5a83ca9879ef")
 			(effects
